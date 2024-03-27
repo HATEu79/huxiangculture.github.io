@@ -1,0 +1,75 @@
+/* CSS Document */
+body{width:1200px; line-height:24px; font-size:13px; margin:0px auto;background-color:#993333;}
+.main{padding:20px; background:#FFFFFF}
+.head img{width:1200px;height=170px;}
+.mls{flbackground:#CC9966 float:left; width:640px; margin-left:20px; }
+a{ text-decoration:none; color:white}
+ul,li{list-style:none; margin:0; padding:0;}
+.nav{ height:50px; background:#CC9999}
+.end{ background:#CC9999; color:#fff; padding:11px 0;  text-align:center}
+.clear{ clear:both}
+.txtlist li{ width:1100px;height:100px; background:#CCCCCC; padding:5px; margin-bottom:20px; font-size:15px; line-height:22px;}
+.txtlist li img{ width:120px; display:block; float:left; margin:0 20px 0 0 }
+.imglist li{ float:left; width:24%; padding:0.5%;}
+.imglist li img{ width:100% ; height:200px}
+.bar{ border-bottom:#ccc solid 1px; font-size:16px; padding-bottom:10px;}
+#max{
+  width: 1200px;
+  height: 470px;
+  align-items: center;
+  margin: 5% auto;
+  margin-top: 0%;
+}
+.re{
+  position: relative;
+  height: 400px;
+}
+.re ul{
+  list-style-type:none ;
+}
+.re ul>li{
+  width: 600px;
+  height: 300px;
+  position: absolute;
+  transition: 1s;
+  opacity: 0;
+}
+.re ul>li img{
+  width: 1200px;
+  height: 530px;
+  border-radius: 10%;
+  border: 15px;
+}
+#max ol {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(5,75px);
+  grid-template-rows: auto;
+  grid-gap: 1em;gap: 1em;
+  float: right;
+  margin-top: 450px;
+  list-style: none;
+  top:0;left:0;
+}
+#max ol li {
+  width: 25px;
+  height: 10px;
+  font-size: 15px;
+  line-height: 20px;
+  float: left;
+  text-align: center;
+  border-radius: 2em;
+  border: 5px solid #999999;
+}
+.wz{padding:20px; background:#FFFFFF}
+.wz p{color:; line-height:30px;padding:30px ; }
+.tp{padding:0 30px;}
+.tp li{ width:360px; float:left; margin-right:30px; padding-bottom:30px;}
+.tp li:nth-child(3n) {margin-right:0;}
+.tp li img{width:100%}
+.tp .fg{ width:360px; height:225px; background:rgba(0,0,0,0.6); text-align:center; line-height:225px; position:absolute; font-size:20px; font-weight:bold; margin-top:-225px; color:#FFF; opacity:0;}
+.tp a:hover .fg{ opacity:1;}
+
+
+
+
